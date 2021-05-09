@@ -1,5 +1,5 @@
-module github.com/tealeg/csv2xlsx
+module csv2xlsx
 
-go 1.12
+go 1.13
 
-require github.com/tealeg/xlsx v1.0.5
+require github.com/tealeg/xlsx v1.0.5 // indirect
