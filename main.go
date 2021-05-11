@@ -40,7 +40,7 @@ func generateXLSXFromCSV(csvPath string, XLSXPath string, delimiter string) erro
 		return err
 	}
 	alignment := xlsx.Alignment{
-		Horizontal: "center", // 水平居中
+		Horizontal: "left", // 水平居中
 		Vertical:   "center", // 垂直居中
 	}
 	fields, err := reader.Read()
